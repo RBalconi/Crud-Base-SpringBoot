@@ -5,10 +5,15 @@ import org.hibernate.validator.constraints.UniqueElements;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
+import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Data
 public class PersonDto {
+
+    private UUID id;
 
     @NotBlank
     private String name;
@@ -24,8 +29,8 @@ public class PersonDto {
     @NotBlank
     private String address;
 
-//    @Email
-//    @UniqueElements
+    @Email
+    @NotBlank
     private String email;
 
 }
