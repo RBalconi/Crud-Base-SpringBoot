@@ -1,6 +1,4 @@
 
-J
-script-create-data-base.sh,1/c/1ce5616a4dd46626cdabe3a3b60bf9ad4c42a96a
 g
 7src/main/java/com/api/crudbase/CrudBaseApplication.java,4/6/461281c52f2e43e7bbc67399a820792443b21d07
 d
