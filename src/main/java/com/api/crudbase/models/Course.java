@@ -5,9 +5,7 @@ import com.api.crudbase.shared.BaseModel;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -18,6 +16,7 @@ public class Course extends BaseModel {
     @Column(name = "NAME", nullable = false)
     private String name;
 
-//    @Column(name = "NAME", nullable = false)
-//    private Situation situation;
+    @Enumerated(EnumType.STRING)
+    @Column(name = "SITUATION", nullable = false)
+    private Situation situation;
 }

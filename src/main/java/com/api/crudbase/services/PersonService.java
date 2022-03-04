@@ -27,7 +27,7 @@ public class PersonService {
     @Transactional
     public Person update(Person person) {
         if(person.getId() == null) {
-            throw new IllegalArgumentException("Person id cannot be null");
+            throw new IllegalArgumentException("Person Id cannot be null");
         }
         return personRepository.save(person);
     }

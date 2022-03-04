@@ -1,7 +1,10 @@
 package com.api.crudbase.models.enumerations;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+
 import java.util.Arrays;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public enum Situation {
     ALL(0, "Todos"),

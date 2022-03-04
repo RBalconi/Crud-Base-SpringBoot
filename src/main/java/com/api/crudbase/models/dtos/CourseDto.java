@@ -11,10 +11,9 @@ import javax.validation.constraints.Size;
 public class CourseDto {
 
     @NotBlank
-    @UniqueElements
     private String name;
 
-    @NotBlank
+//    @NotBlank
     private Situation situation;
 
 }
