@@ -26,7 +26,7 @@
 
 - Entao execute a API pela IDE;
 
-### Abaixo um exemplo de inserção:
+#### Abaixo um exemplo de inserção:
 
 Metodo: ```POST``` </br>
 EndPoint: ```localhost:8080/person/create``` </br>
@@ -59,7 +59,7 @@ Response:
 }
 ```
 ---
-### Resultado Final
+## Resultado Final
 #### Person
 - Banco de dados:
   ![image](https://user-images.githubusercontent.com/18688446/156852703-036646a8-2530-4d0e-9071-0fbfd3b5eabd.png)
@@ -145,3 +145,45 @@ Response:
     "message": "Students found"
 }
 ```
+---
+## EndPoints
+#### Person
+```
+/person
+├───/getAll
+├───/getById
+|      └───/{id}
+├───/create
+├───/update
+|      └───/{id}
+└───/delete
+       └───/{id}
+```
+#### Course
+```
+/course
+├───/getAll
+├───/getById
+|      └───/{id}
+├───/create
+├───/update
+|      └───/{id}
+└───/delete
+       └───/{id}
+```
+#### Students
+```
+/students
+├───/getAll
+├───/getById
+|      └───/{id}
+├───/create
+├───/update
+|      └───/{id}
+└───/delete
+       └───/{id}
+```
+---
+<p align="center">
+  Desenvolvido com 💜 por <a href="https://www.linkedin.com/in/rafael-balconi/">RBalconi</a>
+</p>
