@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/18688446/156849342-809790ed-df9d-4497-b94e-9cff0540c7a0.png" alt="Ecoleta Logo" /> 
+  <img src="https://user-images.githubusercontent.com/18688446/156849342-809790ed-df9d-4497-b94e-9cff0540c7a0.png" alt="CRUD Logo" /> 
   <br/> 
   <h1>API Crud-Base</h1>
   <h3>Base de CRUD feito em Java com Springboot</h3>
